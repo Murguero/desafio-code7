@@ -1,0 +1,20 @@
+{
+  "bill": [
+    {
+      "id": 1,
+      "id_user": 7,
+      "name_user": "Kurtis Weissnat",
+      "motivo": "Divida cartão de credito",
+      "valor": "R$500,00",
+      "data": "11/12/2020"
+    },
+    {
+      "id": 2,
+      "id_user": 9,
+      "name_user": "Glenna Reichert",
+      "motivo": "Gasolina",
+      "valor": "R$80,00",
+      "data": "13/12/2020"
+    }
+  ]
+}
