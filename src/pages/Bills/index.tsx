@@ -25,7 +25,7 @@ interface IBill {
   valor: string;
 }
 
-export default function Bills() {
+const Bills: React.FC = () => {
   const [bills, setBills] = useState<IBill[]>([]);
   const [users, setUsers] = useState<IUsers[]>([]);
 
@@ -305,3 +305,4 @@ export default function Bills() {
     </Container>
   );
 }
+export default Bills;

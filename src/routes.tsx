@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Bills from './pages/Bills'; 
+import Bills from './pages/Bills';
 
 function Routes() {
   return (
@@ -11,7 +11,6 @@ function Routes() {
       </Switch>
     </BrowserRouter>
   );
-
 }
 
 export default Routes;

@@ -17,7 +17,6 @@ export const Dividas = styled.div`
   align-items: center;
 
   div {
-    /* width: 100%; */
     height: 50px;
     background: #FFFFFF;
     display: flex;
@@ -77,7 +76,7 @@ export const Form = styled.form`
       margin-bottom: 8px;
       line-height: 24px;
     }
-    
+
     input {
       width: 100%;
       height: 64px;
@@ -87,7 +86,7 @@ export const Form = styled.form`
       outline: none;
 
       box-sizing: border-box;
-      
+
     }
   }
 
@@ -136,7 +135,7 @@ export const Footer = styled.section`
   .salvar-button {
     width: 80px;
     height: 30px;
-    
+
     font-weight: 300;
     border-radius: 8px;
     border: 0;
