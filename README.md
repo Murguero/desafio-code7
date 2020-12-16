@@ -10,7 +10,7 @@ Para iniciar o aplicativo execute o comando ``` yarn start ``` dentro da pasta c
 Para executar o cenário de teste você deve navegar até a pasta criada e executar o comando ``` yarn test ```
 
 #### Utilizando uma fake API
-Antes de tudo, para que você tenha os dados para exibir em tela, foi criado um arquivo que você poderá utilizar como fake API para te prover esses dados.
+Antes de tudo, para que você tenha os dados para exibir em tela e possa realizar as funcionalidades da aplicação, foi criado um arquivo que você poderá utilizar como fake API para te prover esses dados.
 
 Para isso, foi instalado no seu package.json uma dependência chamada json-server, e um arquivo chamado server.json que contém os dados para uma rota **/bill**. Para executar esse servidor você pode executar o seguinte comando:
 ``` yarn json-server server.json -p 3333 ```
